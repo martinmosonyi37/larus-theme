@@ -98,27 +98,88 @@
 
         {%- if section.settings.collection.products.size > 0 -%}
           {% paginate section.settings.collection.products by section.settings.products_to_show %}
-            {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
-              <li
-                id="Slide-{{ section.id }}-{{ forloop.index }}"
-                class="grid__item{% if show_mobile_slider or show_desktop_slider %} slider__slide{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-                {% if settings.animations_reveal_on_scroll %}
-                  data-cascade
-                  style="--animation-order: {{ forloop.index }};"
-                {% endif %}
-              >
-                {% render 'card-product',
-                  card_product: product,
-                  media_aspect_ratio: section.settings.image_ratio,
-                  image_shape: section.settings.image_shape,
-                  show_secondary_image: section.settings.show_secondary_image,
-                  show_vendor: section.settings.show_vendor,
-                  show_rating: section.settings.show_rating,
-                  skip_styles: skip_card_product_styles,
-                  section_id: section.id,
-                  quick_add: section.settings.quick_add
-                %}
-              </li>
+            {%- for product in section.settings.collection.products -%}
+              {%- liquid
+                # List of translations for the desired option (e.g., "Color" and "Szín")
+                assign option_translations = 'Color,Szín' | split: ','
+                assign option_index = ''
+
+                # Find the index of the desired option by checking against translations
+                for option in product.options
+                  for translation in option_translations
+                    if option == translation
+                      assign option_index = forloop.parentloop.index0
+                      break
+                    endif
+                  endfor
+                  if option_index != ''
+                    break
+                  endif
+                endfor
+              -%}
+
+              {%- if option_index == '' or colorFilterEnabled -%}
+                <li
+                  id="Slide-{{ section.id }}-{{ forloop.index }}"
+                  class="grid__item{% if show_mobile_slider or show_desktop_slider %} slider__slide{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                  {% if settings.animations_reveal_on_scroll %}
+                    data-cascade
+                    style="--animation-order: {{ forloop.index }};"
+                  {% endif %}
+                >
+                  {% render 'card-product',
+                    card_product: product,
+                    media_aspect_ratio: section.settings.image_ratio,
+                    image_shape: section.settings.image_shape,
+                    show_secondary_image: section.settings.show_secondary_image,
+                    show_vendor: section.settings.show_vendor,
+                    show_rating: section.settings.show_rating,
+                    skip_styles: skip_card_product_styles,
+                    section_id: section.id,
+                    quick_add: section.settings.quick_add
+                  %}
+                </li>
+              {%- else -%}
+                {% assign displayed_values = '' %}
+                {% for variant in product.variants %}
+                  {%- liquid
+                    assign variant_option = variant.options[option_index]
+                    assign valueIsDisplayed = false
+                    for value in displayed_values
+                      if value == variant_option
+                        assign valueIsDisplayed = true
+                        break
+                      endif
+                    endfor
+                  -%}
+                  {% unless valueIsDisplayed %}
+                    {%- assign variant_option_arr = variant_option | append: ';' | split: ';' -%}
+                    {% assign displayed_values = displayed_values | concat: variant_option_arr %}
+                    <li
+                      id="Slide-{{ section.id }}-{{ forloop.index }}"
+                      class="grid__item{% if show_mobile_slider or show_desktop_slider %} slider__slide{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                      {% if settings.animations_reveal_on_scroll %}
+                        data-cascade
+                        style="--animation-order: {{ forloop.index }};"
+                      {% endif %}
+                    >
+                      {% render 'card-variant',
+                        card_variant: variant,
+                        card_product: product,
+                        variant_option: variant_option,
+                        media_aspect_ratio: section.settings.image_ratio,
+                        image_shape: section.settings.image_shape,
+                        show_secondary_image: section.settings.show_secondary_image,
+                        show_vendor: section.settings.show_vendor,
+                        show_rating: section.settings.show_rating,
+                        skip_styles: skip_card_product_styles,
+                        section_id: section.id,
+                        quick_add: section.settings.quick_add
+                      %}
+                    </li>
+                  {% endunless %}
+                {% endfor %}
+              {%- endif -%}
               {%- assign skip_card_product_styles = true -%}
             {%- endfor -%}
           {% endpaginate %}
