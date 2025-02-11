@@ -70,33 +70,19 @@
         "featured_collection_wNxe4K": {
           "type": "featured_collection",
           "settings": {
-            "collection": "oceanis"
-          }
-        },
-        "featured_collection_VC6nWY": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "simple"
-          }
-        },
-        "featured_collection_BP4Eph": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "alpha"
+            "collection": "sailing-bracelets"
           }
         }
       },
       "block_order": [
         "featured_collection_hqaGT7",
-        "featured_collection_wNxe4K",
-        "featured_collection_VC6nWY",
-        "featured_collection_BP4Eph"
+        "featured_collection_wNxe4K"
       ],
       "settings": {
         "title": "Collections",
         "heading_size": "display_2",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 2,
         "color_scheme": "",
         "show_view_all": false,
         "columns_mobile": "1",
