@@ -3962,3 +3962,8 @@ details-disclosure > details {
     .footer__menu li, .footer__links li {
         padding: 5px 0 !important; /* Csökkentett padding a felsorolások között */
     }
+
+    .footer__column {
+        margin-bottom: 15px !important; /* Csökkenti a távolságot az oszlopok között */
+    }
+}
