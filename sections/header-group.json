@@ -18,35 +18,40 @@
           "type": "announcement",
           "settings": {
             "text": "Ingyenes szállítás 17 500 Ft felett",
-            "link": ""
+            "link": "",
+            "heading_size": "label_sm"
           }
         },
         "announcement_Bq9BVj": {
           "type": "announcement",
           "settings": {
             "text": "Kézzel készült",
-            "link": ""
+            "link": "",
+            "heading_size": "label_sm"
           }
         },
         "announcement_V7hJhN": {
           "type": "announcement",
           "settings": {
             "text": "2 év garancia",
-            "link": ""
+            "link": "",
+            "heading_size": "label_sm"
           }
         },
         "announcement_6zmkYn": {
           "type": "announcement",
           "settings": {
             "text": "Egyszerű visszaküldés",
-            "link": ""
+            "link": "",
+            "heading_size": "label_sm"
           }
         },
         "announcement_3xKpMp": {
           "type": "announcement",
           "settings": {
             "text": "Segítőkész ügyfélszolgálat",
-            "link": ""
+            "link": "",
+            "heading_size": "label_sm"
           }
         }
       },
@@ -57,7 +62,9 @@
         "announcement_6zmkYn",
         "announcement_3xKpMp"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".announcement-bar .slider-button {display: none !important;}"
+      ],
       "settings": {
         "color_scheme": "scheme-3",
         "show_line_separator": true,
@@ -65,8 +72,7 @@
         "auto_rotate": true,
         "change_slides_speed": 5,
         "enable_country_selector": false,
-        "enable_language_selector": false,
-        "heading_size": "label_sm"
+        "enable_language_selector": false
       }
     },
     "header": {
