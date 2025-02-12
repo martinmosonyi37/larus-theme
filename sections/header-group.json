@@ -63,7 +63,8 @@
         "announcement_3xKpMp"
       ],
       "custom_css": [
-        ".announcement-bar .slider-button {display: none !important;}"
+        ".announcement-bar .slider-button {display: none !important;}",
+        ".announcement-bar__message {letter-spacing: -0px !important;}"
       ],
       "settings": {
         "color_scheme": "scheme-3",
