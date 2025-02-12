@@ -3953,3 +3953,12 @@ details-disclosure > details {
   height: 25px;
   width: 25px;
 }
+
+@media screen and (max-width: 768px) {
+    .footer__menu, .footer__links, .footer__column {
+        text-align: center !important; /* Középre igazítás */
+    }
+
+    .footer__menu li, .footer__links li {
+        padding: 5px 0 !important; /* Csökkentett padding a felsorolások között */
+    }
