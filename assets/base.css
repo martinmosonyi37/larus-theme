@@ -3955,15 +3955,23 @@ details-disclosure > details {
 }
 
 @media screen and (max-width: 768px) {
-    .footer__menu, .footer__links, .footer__column {
-        text-align: center !important; /* Középre igazítás */
+    /* Középre igazítás */
+    .footer__menu,
+    .footer__links,
+    .footer__column,
+    .footer__block {
+        text-align: center !important;
     }
 
-    .footer__menu li, .footer__links li {
-        padding: 5px 0 !important; /* Csökkentett padding a felsorolások között */
+    /* Listák közötti távolság csökkentése */
+    .footer__menu li,
+    .footer__links li,
+    .footer__block ul li {
+        padding: 3px 0 !important; /* Kisebb távolság az elemek között */
     }
 
+    /* Ha az oszlopok között is van nagy térköz, ezt csökkenti */
     .footer__column {
-        margin-bottom: 15px !important; /* Csökkenti a távolságot az oszlopok között */
+        margin-bottom: 10px !important;
     }
 }
