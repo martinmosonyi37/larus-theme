@@ -3954,7 +3954,7 @@ details-disclosure > details {
   width: 25px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 749px) {
     /* Középre igazítás */
     .footer__menu,
     .footer__links,
