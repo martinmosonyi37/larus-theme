@@ -29,10 +29,10 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
+            "button_label_1": "Vásárlás",
             "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": false,
-            "button_label_2": "Something",
+            "button_label_2": "Kollekciók",
             "button_link_2": "#",
             "button_style_secondary_2": true
           }
@@ -70,7 +70,7 @@
         "featured_collection_wNxe4K": {
           "type": "featured_collection",
           "settings": {
-            "collection": "sailing-bracelets"
+            "collection": "vitorlas-karkotok"
           }
         }
       },
@@ -79,7 +79,7 @@
         "featured_collection_wNxe4K"
       ],
       "settings": {
-        "title": "Collections",
+        "title": "Kollekciók",
         "heading_size": "display_2",
         "image_ratio": "adapt",
         "columns_desktop": 2,
@@ -94,7 +94,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
+        "title": "Kiemelt Termékek",
         "heading_size": "display_2",
         "description": "",
         "show_description": false,
@@ -140,7 +140,7 @@
         "testimonial_item_FkiUhM"
       ],
       "settings": {
-        "title": "Testimonials",
+        "title": "Rólunk mondták",
         "heading_size": "display_2",
         "image_ratio": "square",
         "columns_desktop": 3,
