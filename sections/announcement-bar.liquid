@@ -58,7 +58,6 @@
         aria-label="{{ 'sections.announcements.announcement_bar' | t }}"
       >
         <div class="announcement-bar-slider slider-buttons">
-         {%- comment -%}
           <button
             type="button"
             class="slider-button slider-button--prev"
@@ -125,7 +124,6 @@
               {{- 'icon-caret.svg' | inline_asset_content -}}
             </span>
           </button>
-      {%- endcomment -%}
         </div>
       </slideshow-component>
       {%- if request.design_mode -%}
