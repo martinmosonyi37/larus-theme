@@ -430,11 +430,10 @@
 .footer-block-image > img,
 .footer-block__brand-info > img {
   height: auto;
-  justify-content: center;
 }
 
 .footer-block:only-child .footer-block__brand-info .footer__list-social.list-social {
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .footer-block__brand-info .footer__list-social.list-social {
