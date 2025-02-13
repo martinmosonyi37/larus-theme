@@ -96,6 +96,22 @@
             "content": "",
             "page": ""
           }
+        },
+        "collapsible_tab_PRyaxm": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Specifikáció",
+            "icon": "lightning_bolt",
+            "content": "{{ product.metafields.custom.specification | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "text_44QAPM": {
+          "type": "text",
+          "settings": {
+            "text": "Text block",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
@@ -109,7 +125,9 @@
         "icon_with_text_FEafJf",
         "collapsible-row-0",
         "collapsible-row-1",
-        "collapsible-row-2"
+        "collapsible-row-2",
+        "collapsible_tab_PRyaxm",
+        "text_44QAPM"
       ],
       "settings": {
         "enable_sticky_info": true,
