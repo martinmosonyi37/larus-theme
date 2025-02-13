@@ -430,6 +430,7 @@
 .footer-block-image > img,
 .footer-block__brand-info > img {
   height: auto;
+  justify-content: center;
 }
 
 .footer-block:only-child .footer-block__brand-info .footer__list-social.list-social {
