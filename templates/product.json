@@ -248,7 +248,7 @@
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 32,
-        "padding_bottom": 16
+        "padding_bottom": 32
       }
     },
     "related-products": {
