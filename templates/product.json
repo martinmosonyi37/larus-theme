@@ -105,13 +105,6 @@
             "content": "{{ product.metafields.custom.specification | metafield_tag }}<p></p>",
             "page": ""
           }
-        },
-        "text_44QAPM": {
-          "type": "text",
-          "settings": {
-            "text": "Text block",
-            "text_style": "body"
-          }
         }
       },
       "block_order": [
@@ -126,8 +119,7 @@
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
-        "collapsible_tab_PRyaxm",
-        "text_44QAPM"
+        "collapsible_tab_PRyaxm"
       ],
       "settings": {
         "enable_sticky_info": true,
