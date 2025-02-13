@@ -102,7 +102,7 @@
           "settings": {
             "heading": "Specifikáció",
             "icon": "lightning_bolt",
-            "content": "{{ product.metafields.custom.specification | metafield_tag }}",
+            "content": "{{ product.metafields.custom.specification | metafield_tag }}<p></p>",
             "page": ""
           }
         },
