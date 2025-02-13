@@ -3957,3 +3957,8 @@ details-disclosure > details {
 body, p, a, span, h1, h2, h3, h4, h5, h6, li, button, input, label {
     letter-spacing: 0px !important;
 }
+
+body, p {
+  line-height: 1rem !important;
+}
+}
