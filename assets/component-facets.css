@@ -1279,7 +1279,44 @@ input.mobile-facets__checkbox {
   .menu-opening .mobile-facets__close {
     top: 6rem;
     transform: translateY(0);
+}
+}
+#custom_filter.facets-container {
+  display: flex;
+  justify-content: space-between;
+}
 
+#custom_filter .product-count {
+  display: none;
+}
 
+#custom_filter #gender_filter ul.facets-layout {
+  display: flex;
+  gap: 12px;
+}
 
+#custom_filter .active-facets {
+  display: none
+}
+
+#gender_filter input {
+  display: none;
+}
+
+#custom_filter #gender_filter {
+  border: none;
+  padding: 0;
+}
+
+#gender_filter label {
+  padding: 0.5rem 2rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 2rem;
+  font-size: 1rem;
+  min-width: 8rem;
+  justify-content: center;
+}
+
+#gender_filter label.active {
+  border-color: black;
 }
