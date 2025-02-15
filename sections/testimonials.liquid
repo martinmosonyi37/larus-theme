@@ -71,7 +71,7 @@
             assign columns = 3
           endif
         -%}
-        {%- for block in section.blocks -%}
+        {%- for block in section.blocks limit: section.settings.columns_desktop -%}
           <li
             id="Slide-{{ section.id }}-{{ forloop.index }}"
   class="collection-list__item grid__item slider__slide
