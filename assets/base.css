@@ -3988,3 +3988,9 @@ body, p {
 .slider .slider__slide:first-child {
   margin-left: 0 !important;
 }
+
+.testimonial__inner .card__information {
+    padding: 0rem !important;
+    border: 0px solid rgb(224, 224, 224) !important; 
+    border-radius: 8px;
+}
