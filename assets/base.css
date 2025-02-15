@@ -3981,12 +3981,12 @@ body, p {
 }
 
 .slider {
-  padding-left: 0 !important;
+  padding-left: 1px !important;
   margin-left: 0 !important;
 }
 
 .slider .slider__slide:first-child {
-  margin-left: 1rem !important;
+  margin-left: 0 !important;
 }
 
 @media screen and (max-width: 749px) {
