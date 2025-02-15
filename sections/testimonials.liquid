@@ -71,7 +71,7 @@
             assign columns = 3
           endif
         -%}
-        {%- for block in section.blocks -%}
+        {%- for block in section.blocks limit: section.blocks.size -%}
           <li
             id="Slide-{{ section.id }}-{{ forloop.index }}"
   class="collection-list__item grid__item slider__slide
@@ -111,8 +111,7 @@
             <span class="slider-counter--current">1</span>
             <span aria-hidden="true"> / </span>
             <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
-            <span class="slider-counter--total">
-  {{ section.blocks.size | divided_by: section.settings.columns_mobile | ceil }}</span>
+            <span class="slider-counter--total">{{ section.blocks.size }}</span>
           </div>
           <button
             type="button"
