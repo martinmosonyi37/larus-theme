@@ -331,7 +331,7 @@
         "columns_desktop": 6,
         "swipe_on_desktop": false,
         "color_scheme": "",
-        "show_view_all": false,
+        "show_view_all": true,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 36,
