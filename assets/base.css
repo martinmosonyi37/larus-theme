@@ -3979,3 +3979,12 @@ body, p {
     scroll-snap-align: start;
   }
 }
+
+.slider {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+.slider .slider__slide:first-child {
+  margin-left: 0 !important;
+}
