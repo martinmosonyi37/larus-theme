@@ -3994,5 +3994,6 @@ body, p {
     padding: 2rem !important;
     border: 1px solid rgb(224, 224, 224) !important; 
     border-radius: 8px;
+    padding-left: 1rem;
 }
 }
