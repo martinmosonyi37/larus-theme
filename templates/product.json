@@ -283,19 +283,33 @@
           "settings": {
             "testimonial_object": "m-martin"
           }
+        },
+        "testimonial_item_g3EJc8": {
+          "type": "testimonial_item",
+          "settings": {
+            "testimonial_object": "m-szilvi"
+          }
+        },
+        "testimonial_item_VnJr7V": {
+          "type": "testimonial_item",
+          "settings": {
+            "testimonial_object": "sz-eva"
+          }
         }
       },
       "block_order": [
         "testimonial_item_YDrLKa",
-        "testimonial_item_tPwq3b"
+        "testimonial_item_tPwq3b",
+        "testimonial_item_g3EJc8",
+        "testimonial_item_VnJr7V"
       ],
       "settings": {
-        "title": "Testimonials",
+        "title": "Rólunk írták",
         "heading_size": "display_2",
-        "image_ratio": "square",
-        "columns_desktop": 3,
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
         "color_scheme": "",
-        "show_view_all": false,
+        "show_view_all": true,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 36,
