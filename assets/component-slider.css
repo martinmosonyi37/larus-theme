@@ -325,7 +325,7 @@ slider-component.slider-component-full-width {
 
 @media screen and (max-width: 989px) {
   .slider--desktop:not(.slider--tablet) + .slider-buttons {
-    display: none;
+    display: inherit;
   }
 }
 
