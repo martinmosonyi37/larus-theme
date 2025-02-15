@@ -3962,9 +3962,34 @@ body, p {
   line-height: 1.7rem !important;
 }
 
+@media screen and (min-width: 750px) {
+  .slider--desktop {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
 
+  .slider--desktop::-webkit-scrollbar {
+    display: none;
+  }
 
-@media screen and (max-width: 750px) {
+  .slider--desktop .slider__slide {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+  }
+}
+
+.slider {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+.slider .slider__slide:first-child {
+  margin-left: 0 !important;
+}
+
+@media screen and (max-width: 749px) {
 .testimonial__inner .card__information {
     padding: 2rem !important;
     border: 1px solid rgb(224, 224, 224) !important; 
