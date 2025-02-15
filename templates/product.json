@@ -278,12 +278,6 @@
             "testimonial_object": "sz-eva"
           }
         },
-        "testimonial_item_HmXVap": {
-          "type": "testimonial_item",
-          "settings": {
-            "testimonial_object": ""
-          }
-        },
         "testimonial_item_tNYQHT": {
           "type": "testimonial_item",
           "settings": {
@@ -317,7 +311,6 @@
       },
       "block_order": [
         "testimonial_item_VnJr7V",
-        "testimonial_item_HmXVap",
         "testimonial_item_tNYQHT",
         "testimonial_item_PkMrcX",
         "testimonial_item_wnnPUf",
@@ -331,7 +324,7 @@
         "columns_desktop": 6,
         "swipe_on_desktop": true,
         "color_scheme": "",
-        "show_view_all": true,
+        "show_view_all": false,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 36,
