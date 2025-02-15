@@ -272,42 +272,6 @@
     "testimonials_bLh6JQ": {
       "type": "testimonials",
       "blocks": {
-        "testimonial_item_dLikPt": {
-          "type": "testimonial_item",
-          "settings": {
-            "testimonial_object": "andras"
-          }
-        },
-        "testimonial_item_YDrLKa": {
-          "type": "testimonial_item",
-          "settings": {
-            "testimonial_object": "m-mate"
-          }
-        },
-        "testimonial_item_wURgjb": {
-          "type": "testimonial_item",
-          "settings": {
-            "testimonial_object": "m-mate"
-          }
-        },
-        "testimonial_item_UP96GV": {
-          "type": "testimonial_item",
-          "settings": {
-            "testimonial_object": "m-mate"
-          }
-        },
-        "testimonial_item_tPwq3b": {
-          "type": "testimonial_item",
-          "settings": {
-            "testimonial_object": "m-martin"
-          }
-        },
-        "testimonial_item_g3EJc8": {
-          "type": "testimonial_item",
-          "settings": {
-            "testimonial_object": "m-szilvi"
-          }
-        },
         "testimonial_item_VnJr7V": {
           "type": "testimonial_item",
           "settings": {
@@ -316,12 +280,6 @@
         }
       },
       "block_order": [
-        "testimonial_item_dLikPt",
-        "testimonial_item_YDrLKa",
-        "testimonial_item_wURgjb",
-        "testimonial_item_UP96GV",
-        "testimonial_item_tPwq3b",
-        "testimonial_item_g3EJc8",
         "testimonial_item_VnJr7V"
       ],
       "settings": {
