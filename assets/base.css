@@ -3990,7 +3990,7 @@ body, p {
 }
 
 .testimonial__inner .card__information {
-    padding: 0rem !important;
+    padding: 1rem !important;
     border: 0px solid rgb(224, 224, 224) !important; 
     border-radius: 8px;
 }
