@@ -3961,21 +3961,3 @@ body, p, a, span, h1, h2, h3, h4, h5, h6, li, button, input, label {
 body, p {
   line-height: 1.7rem !important;
 }
-
-@media screen and (min-width: 750px) {
-  .slider--desktop {
-    display: flex;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  .slider--desktop::-webkit-scrollbar {
-    display: none;
-  }
-
-  .slider--desktop .slider__slide {
-    flex: 0 0 auto;
-    scroll-snap-align: start;
-  }
-}
