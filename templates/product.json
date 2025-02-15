@@ -329,7 +329,7 @@
         "heading_size": "display_2",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "swipe_on_desktop": false,
+        "swipe_on_desktop": true,
         "color_scheme": "",
         "show_view_all": false,
         "columns_mobile": "1",
