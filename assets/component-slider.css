@@ -319,13 +319,13 @@ slider-component.slider-component-full-width {
 
 @media screen and (min-width: 990px) {
   .slider:not(.slider--everywhere):not(.slider--desktop) + .slider-buttons {
-    display: inherit;
+    display: none;
   }
 }
 
 @media screen and (max-width: 989px) {
   .slider--desktop:not(.slider--tablet) + .slider-buttons {
-    display: inherit;
+    display: none;
   }
 }
 
