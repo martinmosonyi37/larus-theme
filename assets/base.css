@@ -3996,12 +3996,3 @@ body, p {
     border-radius: 8px;
 }
 }
-
-.slider__slide {
-  display: flex !important;
-  opacity: 1 !important;
-}
-
-.slider__slide[style*="display: none"] {
-  display: none !important;
-}
