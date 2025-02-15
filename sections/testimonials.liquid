@@ -68,7 +68,7 @@
         {%- liquid
           assign columns = section.blocks.size
           if columns > 3
-            assign columns = 3
+            assign columns = 2
           endif
         -%}
         {%- for block in section.blocks limit: section.blocks.size -%}
