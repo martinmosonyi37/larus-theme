@@ -19,8 +19,14 @@
 {%- liquid
   assign columns_mobile_int = section.settings.columns_mobile | plus: 0
   assign show_mobile_slider = false
+  assign show_desktop_slider = false
+
   if section.settings.swipe_on_mobile and section.blocks.size > columns_mobile_int
     assign show_mobile_slider = true
+  endif
+
+  if section.settings.swipe_on_desktop and section.blocks.size > section.settings.columns_desktop
+    assign show_desktop_slider = true
   endif
 -%}
 
@@ -50,7 +56,17 @@
 
     <slider-component class="slider-mobile-gutter{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
       <ul
-        class="testimonial-list contains-card contains-card--collection{% if settings.card_style == 'standard' %} contains-card--standard{% endif %} grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down{% if section.settings.swipe_on_mobile %} slider slider--tablet grid--peek{% endif %} collection-list--{{ section.blocks.size }}-items"
+  class="testimonial-list contains-card contains-card--collection
+    {% if settings.card_style == 'standard' %} contains-card--standard{% endif %}
+    grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down
+    {% if show_mobile_slider or show_desktop_slider %} slider grid--peek{% endif %}
+    {% if show_mobile_slider %} slider--tablet{% endif %}
+    {% if show_desktop_slider %} slider--desktop{% endif %}
+    collection-list--{{ section.blocks.size }}-items"
+  id="Slider-{{ section.id }}"
+  role="list"
+>
+          class="testimonial-list contains-card contains-card--collection{% if settings.card_style == 'standard' %} contains-card--standard{% endif %} grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down{% if section.settings.swipe_on_mobile %} slider slider--tablet grid--peek{% endif %} collection-list--{{ section.blocks.size }}-items"
         id="Slider-{{ section.id }}"
         role="list"
       >
