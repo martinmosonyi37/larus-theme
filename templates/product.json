@@ -254,7 +254,7 @@
     "related-products": {
       "type": "related-products",
       "settings": {
-        "heading": "You may also like",
+        "heading": "Hasonló termékek",
         "heading_size": "h2",
         "products_to_show": 4,
         "columns_desktop": 4,
@@ -336,8 +336,8 @@
         "heading_size": "display_2",
         "image_ratio": "adapt",
         "columns_desktop": 6,
-        "swipe_on_desktop": true,
         "color_scheme": "",
+        "swipe_on_desktop": true,
         "show_view_all": false,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
