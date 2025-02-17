@@ -16,9 +16,133 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "rich_text_rH8nAm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Ag8zmc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Ag8zmc"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_kbcg9g": {
+      "type": "rich-text",
+      "blocks": {
+        "text_8kKWQD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Az alábbiakban szeretnénk néhány fontos információt megosztani a karkötő helyes használatáról, valamint a biztonságos viseléséről.</p>"
+          }
+        },
+        "heading_XbbUNG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Viselési ajánlások",
+            "heading_size": "h2"
+          }
+        },
+        "text_cY9DWK": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li><strong>Hétköznapi viselet</strong>: A vitorlás karkötő tökéletes választás a mindennapi viselethez, legyen szó munkáról( kivéve fizikai munka), szabadidős tevékenységekről vagy baráti összejövetelekről. Stílusos és egyedi megjelenést kölcsönöz.</li></ul><p></p><ul><li><strong>Tengeri és vízi sportok</strong>: A karkötő kiváló kiegészítő lehet egyes tengeri vagy vízi sportokhoz, de mindig győződj meg arról, hogy olyan tevékenységet fogsz végezni, ahol nem áll fenn a beakadás veszélye!</li></ul><p></p><ul><li><strong>Különleges alkalmak</strong>: Ünnepi eseményeken vagy hajós rendezvényeken is viselheted, hogy stílusos és elegáns megjelenést biztosítson.</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "text_8kKWQD",
+        "heading_XbbUNG",
+        "text_cY9DWK"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_RPfjLF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_dCxtQ3": {
+          "type": "heading",
+          "settings": {
+            "heading": "Mikor ne viseld a vitorlás karkötőt",
+            "heading_size": "h2"
+          }
+        },
+        "text_Vb6nHa": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li><strong>Fizikai munkák</strong>: Amennyiben olyan munkát végzel, ahol fennáll a veszélye, hogy a karkötő beakad (pl. építkezés, kertészkedés, szerelés, stb.), ne viseld azt, inkább vedd le a balesetek elkerülése érdekében!</li></ul><p></p><ul><li><strong>Sportolás</strong>: Bizonyos sporttevékenységek közben (pl. hegymászás, kerékpározás egyéb technikai sportok, stb.) a karkötő beakadhat és sérülést okozhat. Ezekben az esetekben javasolt levenni!</li></ul><p></p><ul><li><strong>Gépek kezelése</strong>: Ha olyan gépekkel dolgozol, ahol a karkötő beakadhat (pl. forgó alkatrészek, ipari gépek, stb.), mindig vedd le a karkötőt a biztonságod megóvása érdekében!</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dCxtQ3",
+        "text_Vb6nHa"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_QDFA3Q": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_bJXcex": {
+          "type": "heading",
+          "settings": {
+            "heading": "Biztonsági figyelmeztetés",
+            "heading_size": "h2"
+          }
+        },
+        "text_ChddpB": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Felhívjuk figyelmed, hogy minden olyan tevékenység közben, amely során a karkötő beakadásának veszélye fennáll, ne viseld azt! Az esetleges személyi sérülésekért felelősséget nem vállalunk!</strong></p><p>Kérjük, hogy mindig figyelj oda a karkötő viselése közben és tartsd be a fenti utasításokat. Ha bármilyen kérdésed lenne a karkötő használatával kapcsolatban, kérjük, fordulj hozzánk bizalommal.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bJXcex",
+        "text_ChddpB"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_rH8nAm",
+    "rich_text_kbcg9g",
+    "rich_text_RPfjLF",
+    "rich_text_QDFA3Q"
   ]
 }
