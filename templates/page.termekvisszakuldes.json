@@ -16,9 +16,126 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "rich_text_AAt47P": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ERzRc8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ERzRc8"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_aXBTrR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TRykGK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Nem lett jó a méret, esetleg másik termékre cserélnél? Küldd vissza nekünk és kicseréljük!",
+            "heading_size": "h2"
+          }
+        },
+        "text_W9638U": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Amennyiben nem lett jó a kiválasztott méret vagy mégis egy másik termékünk tetszik jobban, semmi gond azonnal cseréljük. A cserére a termék(ek) kézhezvételét követően 60 nap áll rendelkezésedre. Használt termékek cseréjére nincs lehetőség.</p><p>Hogyha cserét szeretnél akkor postai úton kell visszaküldened számunkra a termék(ek)et sértetlen állapotban. A visszaküldeni kívánt karkötőt (<strong>csak a karkötőt</strong> a csomagolása nékül) egy papír borítékba kell beletenni, majd ragasztószalaggal jól lezárni és a postán <strong>elsőbbségi</strong> levélküldeményként feladni. A visszaküldés díja téged terhel, de a kiválasztott új, megfelelő méretű terméket ingyen postázzuk vissza számodra.</p><p>Mielőtt visszaküldenéd a termék(ek)et, <strong>előtte mindenképp vedd fel velünk a kapcsolatot</strong> telefonon vagy emailen keresztül és jelezd számunkra, hogy visszaküldenéd a termék(ek)et, valamint, hogy milyen méretre esetleg milyen más karkötőre szeretnél cserélni.</p><p>Ha elakadtál az új méret kiválasztásában, hívj minket vagy írj nekünk bátran és segítünk a megfelelő méret meghatározásában.</p><p>(méret vagy termékcsere, szavatossági és garanciális visszaküldés esetén nem kell kitölteni az elállási nyilatkozatot.)</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TRykGK",
+        "text_W9638U"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_t6dLri": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_HVPeBV": {
+          "type": "heading",
+          "settings": {
+            "heading": "Garanciális visszaküldés",
+            "heading_size": "h2"
+          }
+        },
+        "text_6YWQb4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Minden termékünkre 24 hónap garanciát vállalunk! A garancia csak a karkötőkre vonatkozik, egyéb tartozékaira, mint például a díszdoboz, garanciát nem vállalunk. A termék jótállási ideje a vásárlás dátumától kezdődik.</p><p>Cseregarancia esetén a terméket postai úton kell visszaküldened számunkra . A visszaküldeni kívánt karkötőt (csak a karkötőt a csomagolása nékül) egy papír borítékba kell betenni, majd ragasztószalaggal jól lezárni és a postán elsőbbségi levélküldeményként feladni.</p><p>A hibás termék helyett küldött termékhez új garanciális idő tartozik, ez akkor lép érvénybe, amikor a kicserélt termék a megrendelő birtokába jut.</p><h2>Garancia hatályának elvesztése</h2><ul><li>A vevő nem teljesíti, nem veszi figyelembe a használati utasításokat,</li><li>Ha a termék meghibásodása, mérgező vagy vegyi anyagok, magas hőhatás megléte miatt következett be,</li><li>Szakszerűtlen tisztítás,</li><li>Nem rendeltetés szerű használat,</li><li>Szándékos rongálás: a karkötők széttépése, összekarcolása, stb,</li><li>Házilagos javítás,</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HVPeBV",
+        "text_6YWQb4"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_KY6BeR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gFKiLa": {
+          "type": "heading",
+          "settings": {
+            "heading": "Elállás a vásárlástól",
+            "heading_size": "h2"
+          }
+        },
+        "text_BwrGjB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A termék kézhezvételét követően meggondolhatod magad és elállhatsz a vásárlástól, visszaküldheted nekünk a termék(ek)et. Erre 60 nap áll rendelkezésedre.</p><p><strong>A terméket postai úton, ajánlott csomagként kell hozzánk eljuttatni, minden tartozékával együtt, sértetlen állapotban, a kinyomtatott elállási nyilatkozattal együtt. Utánvétes csomagokat nem fogadunk el!</strong></p><p>A termék visszaküldésének díja téged terhel. Amint megérkezett hozzánk a termék, annak teljes összegét azonnal visszautaljuk számodra.</p><p><strong>Ha elállnál a vásárlástól ki kell töltened az elállási nyilatkozatot és csatolnod kell a visszaküldendő csomaghoz nyomatott formában. Ha nem tudod kinyomtatni a nyilatkozatot, ez esetben e-mailben (info@larus-shop.hu-ra) kell elküldened nekünk az elállási nyilatkozat alapján kitöltendő adatokat (email-ben küldött elállási nyilatkozat esetén aláírás nem szükséges).</strong></p><h2><a href=\"https://larus-shop.hu/wp-content/uploads/2021/02/larus-bracelets-elallasi-nyilatkozat.pdf\">Elállási nyilatkozat letöltése</a></h2><p>Visszaküldés esetén a termék(ek)et erre a címre kérjük eljuttatni:</p><ul><li>Mosonyi István Tibor e.v.</li><li>1119 Budapest</li><li>Hadak útja 34.</li></ul><p>Ha bármi egyéb kérdésed van a visszaküldéssel, elállással kapcsolatban, hívj minket vagy írj nekünk bátran.</p><ul><li>Telefonszám: +36 20 352 3018</li><li>e-mail: info@larus-shop.hu</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gFKiLa",
+        "text_BwrGjB"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_AAt47P",
+    "rich_text_aXBTrR",
+    "rich_text_t6dLri",
+    "rich_text_KY6BeR"
   ]
 }
