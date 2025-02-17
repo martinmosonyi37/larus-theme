@@ -277,7 +277,7 @@
           "settings": {
             "heading": "Garancia",
             "icon": "heart",
-            "row_content": "",
+            "row_content": "<p>Minden termékünkre 24 hónap garanciát vállalunk, a termék jótállási ideje a vásárlás dátumától kezdődik.</p>",
             "page": ""
           }
         }
