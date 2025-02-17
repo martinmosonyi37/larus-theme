@@ -204,21 +204,6 @@
         "padding_bottom": 32
       }
     },
-    "video_CQeBgJ": {
-      "type": "video",
-      "settings": {
-        "heading": "Video",
-        "heading_size": "h1",
-        "enable_video_looping": true,
-        "video": "shopify://files/videos/2_9.mp4",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "image_with_text_KR6KzF": {
       "type": "image-with-text",
       "blocks": {
@@ -364,7 +349,6 @@
   "order": [
     "main",
     "multicolumn_DnXwin",
-    "video_CQeBgJ",
     "image_with_text_KR6KzF",
     "related-products",
     "testimonials_bLh6JQ"
