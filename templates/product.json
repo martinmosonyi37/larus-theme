@@ -220,14 +220,14 @@
         "heading_6RApTd": {
           "type": "heading",
           "settings": {
-            "heading": "{{ product.title }}",
-            "heading_size": "display_1"
+            "heading": "Kézműves Manufaktúra Precizitással és Szenvedéllyel",
+            "heading_size": "h2"
           }
         },
         "text_X7qPFF": {
           "type": "text",
           "settings": {
-            "text": "<p></p><p></p>",
+            "text": "<p>A <strong>Larus</strong> karkötők nem sorozatgyártás eredményei – minden egyes darab manufaktúránk műhelyében, gondos kézi munkával készül. Az alkotás folyamata a legkiválóbb, eredeti ásványgyöngyök gondos kiválasztásával kezdődik. Minden gyöngyöt egyenként vizsgálunk meg, hogy csak a legszebb mintázatú, legtisztább szerkezetű darabok kerüljenek felhasználásra.</p><p>A karkötők összeállításakor nemcsak az esztétikát, hanem a harmóniát és az egyensúlyt is szem előtt tartjuk – a színek, textúrák és formák tökéletes összhangba kerülnek egymással. A rozsdamentes acél díszek finom kontrasztot adnak az ásványok természetes szépségéhez, miközben időtálló eleganciát biztosítanak.</p><p>Minden karkötő egy erős, rugalmas gumiszalagra kerül, amelyet maximális tartósságra tervezünk. A fűzés folyamata kézi munka, ahol precízen illesztjük egymáshoz az elemeket, hogy a karkötő kényelmes viselet legyen, és hosszú éveken át megőrizze formáját.</p><p>A <strong>Larus</strong> karkötők nemcsak ékszerek – egyedi, kézműves alkotások, amelyek magukban hordozzák a természet erejét és a manufaktúránkban végzett elhivatott munkát. Ha egy olyan elegáns és tartós kiegészítőre vágysz, amely valódi odafigyeléssel és mesterségbeli tudással készült, a <strong>Larus</strong> karkötők tökéletes választást jelentenek.</p><p></p>",
             "text_style": "body"
           }
         }
@@ -242,7 +242,7 @@
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "",
