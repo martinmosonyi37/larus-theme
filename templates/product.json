@@ -73,6 +73,10 @@
             "heading_3": "Szállítás 3 napon belül*"
           }
         },
+        "description_etUpVz": {
+          "type": "description",
+          "settings": {}
+        },
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "disabled": true,
@@ -109,10 +113,6 @@
             "content": "<p>Fizethetsz online bankkártyával és utánvéttel is. Utánvétes fizetés esetén a futárnak fizeted meg a termék ellenértékét készpénzben.</p><p>A webáruházunk csomag szállítását a GLS hungary kft. végzi, Budapest egyes kerületeire pedig saját futárszolgálatunk is végez kiszállítást.</p><p><strong>GLS</strong>: Online bankkártyás fizetés esetén <strong>990 Ft</strong>, utánvétes fizetés esetén <strong>1290 Ft</strong> a szállítási díj. Szállítási idő 1-3 munkanap.</p><p><strong>Posta:</strong> Utánvétes fizetés esetén <strong>1990 Ft</strong>, szállítási idő 1 hét.</p><p><strong>17 500 Ft-ot meghaladó vásárlásnál a szállítás ingyenes.</strong></p><p><strong>2500 Ft</strong> rendelési összegig lehetőség van a terméket Postaládába rendelni ingyenes szállítási díjjal.</p>",
             "page": ""
           }
-        },
-        "description_etUpVz": {
-          "type": "description",
-          "settings": {}
         }
       },
       "block_order": [
@@ -124,11 +124,11 @@
         "copy_discount_code_Ueg6yD",
         "buy_buttons",
         "icon_with_text_FEafJf",
+        "description_etUpVz",
         "collapsible-row-0",
         "collapsible_tab_PRyaxm",
         "collapsible-row-2",
-        "collapsible-row-1",
-        "description_etUpVz"
+        "collapsible-row-1"
       ],
       "settings": {
         "enable_sticky_info": true,
