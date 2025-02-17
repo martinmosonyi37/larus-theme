@@ -30,7 +30,7 @@
         "text_e4FUtT": {
           "type": "text",
           "settings": {
-            "text": "<p>Hétfő-Péntek 10:00-17:00 óra között</p><p>Telefonszám: +36 20 352 3018</p><p>e-mail: info@larus-shop.hu</p><p>Levelezési cím: 1119 Budapest Hadak útja 34. </p><p>(Nem üzlethelyiség, nem átvevőhely!)</p>"
+            "text": "<p>Hétfő-Péntek 10:00-17:00 óra között</p><p>Telefonszám: +36 20 352 3018</p><p><strong>e-mail: info@larus-shop.hu</strong></p><p>Levelezési cím: 1119 Budapest Hadak útja 34. </p><p>(Nem üzlethelyiség, nem átvevőhely!)</p>"
           }
         }
       },
