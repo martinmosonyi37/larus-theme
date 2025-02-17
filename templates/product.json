@@ -238,7 +238,7 @@
         "text_X7qPFF"
       ],
       "settings": {
-        "image": "shopify://shop_images/Z6III-4732_2masolat.jpg",
+        "image": "{{ product.metafields.custom.kategoria_handmade_kep.value }}",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
