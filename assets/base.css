@@ -3988,3 +3988,8 @@ body, p {
 .slider .slider__slide:first-child {
   margin-left: 0 !important;
 }
+
+
+.product-gallery {
+  overflow-y: hidden !important; /* Tiltja a függőleges görgetést a galériában */
+}
