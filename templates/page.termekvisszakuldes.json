@@ -23,7 +23,7 @@
         "heading_ERzRc8": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "{{ page.title }}",
             "heading_size": "h1"
           }
         }
