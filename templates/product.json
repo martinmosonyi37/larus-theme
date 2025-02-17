@@ -281,10 +281,11 @@
         "collapsible_row_Czy3zb",
         "collapsible_row_Xw8WD7"
       ],
+      "custom_css": [],
       "settings": {
         "caption": "",
         "heading": "Hasznos információk",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "heading_alignment": "center",
         "layout": "none",
         "color_scheme": "",
