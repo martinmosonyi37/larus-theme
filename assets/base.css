@@ -3988,3 +3988,22 @@ body, p {
 .slider .slider__slide:first-child {
   margin-left: 0 !important;
 }
+
+.slider {
+  touch-action: pan-y; /* Csak vízszintes csúsztatást enged */
+  overflow-x: auto;
+  overflow-y: hidden; /* Tiltja a függőleges görgetést */
+  -webkit-overflow-scrolling: touch; /* Mobilokon gördülékeny csúsztatás */
+}
+
+.slider__slide {
+  touch-action: pan-y; /* Csak vízszintes mozgás engedélyezése */
+}
+
+.product-gallery {
+  overflow-y: hidden !important; /* Tiltja a függőleges görgetést a galériában */
+}
+
+.product-gallery img {
+  pointer-events: none; /* Megakadályozza, hogy a képek külön mozgathatóak legyenek */
+}
