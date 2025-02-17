@@ -35,6 +35,7 @@
         },
         "custom_alert_cxiTrA": {
           "type": "custom_alert",
+          "disabled": true,
           "settings": {
             "alert_type": "default",
             "alert_title": "Alert Title",
@@ -43,6 +44,7 @@
         },
         "copy_discount_code_Ueg6yD": {
           "type": "copy-discount-code",
+          "disabled": true,
           "settings": {
             "coupon_code": "Larus2020",
             "coupon_title": "Get 20% Off",
