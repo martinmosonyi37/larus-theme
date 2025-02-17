@@ -3925,12 +3925,15 @@ details-disclosure > details {
   .testimonial-list-wrapper.collection-list-wrapper.page-width {
       padding-left: 1.5rem;
   }
+  .banner--full-height {
+  height: 450px;
+}
 }
 .banner .media > *:not(.zoom):not(.deferred-media__poster-button), .media model-viewer {
   height: 100%;
 }
 .banner--full-height {
-  height: 450px;
+  height: 1080px;
 }
 .product_brand_name {
   text-transform: uppercase;
