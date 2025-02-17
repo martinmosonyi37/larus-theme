@@ -169,7 +169,7 @@
         "text_X7qPFF"
       ],
       "settings": {
-        "image": "{{ product.metafields.custom.detailed_image.value }}",
+        "image": "shopify://shop_images/Z6III-4732_2masolat.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
