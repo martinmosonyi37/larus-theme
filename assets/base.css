@@ -3988,3 +3988,10 @@ body, p {
 .slider .slider__slide:first-child {
   margin-left: 0 !important;
 }
+
+<details {% if section.settings.expand_description %}open{% endif %}>
+  <summary>Leírás</summary>
+  <div>
+    {{ product.description }}
+  </div>
+</details>
