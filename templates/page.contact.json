@@ -17,11 +17,41 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_gfkq8F": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_B4EaUk": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ügyfélszolgálat",
+            "heading_size": "h1"
+          }
+        },
+        "text_e4FUtT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hétfő-Péntek 10:00-17:00 óra között</p><p>Telefonszám: +36 20 352 3018</p><p>e-mail: info@larus-shop.hu</p><p>Levelezési cím: 1119 Budapest Hadak útja 34. </p><p>(Nem üzlethelyiség, nem átvevőhely!)</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_B4EaUk",
+        "text_e4FUtT"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "form": {
       "type": "contact-form",
       "settings": {
-        "heading": "Contact us",
-        "heading_size": "display_1",
+        "heading": "Írj nekünk",
+        "heading_size": "h2",
         "color_scheme": "scheme-1",
         "padding_top": 36,
         "padding_bottom": 36
@@ -30,6 +60,7 @@
   },
   "order": [
     "main",
+    "rich_text_gfkq8F",
     "form"
   ]
 }
