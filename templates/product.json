@@ -303,24 +303,6 @@
         "padding_bottom": 36
       }
     },
-    "related-products": {
-      "type": "related-products",
-      "settings": {
-        "heading": "Hasonló termékek",
-        "heading_size": "h2",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "color_scheme": "scheme-1",
-        "image_ratio": "square",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "columns_mobile": "2",
-        "padding_top": 48,
-        "padding_bottom": 48
-      }
-    },
     "testimonials_bLh6JQ": {
       "type": "testimonials",
       "blocks": {
@@ -395,6 +377,24 @@
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "Hasonló termékek",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 48,
+        "padding_bottom": 48
       }
     }
   },
