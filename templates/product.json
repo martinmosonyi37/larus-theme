@@ -73,8 +73,13 @@
             "heading_3": "Szállítás 3 napon belül*"
           }
         },
+        "description_etUpVz": {
+          "type": "description",
+          "settings": {}
+        },
         "collapsible-row-0": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Leírás",
             "icon": "question_mark",
@@ -119,6 +124,7 @@
         "copy_discount_code_Ueg6yD",
         "buy_buttons",
         "icon_with_text_FEafJf",
+        "description_etUpVz",
         "collapsible-row-0",
         "collapsible_tab_PRyaxm",
         "collapsible-row-2",
