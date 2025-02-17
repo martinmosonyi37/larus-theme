@@ -350,16 +350,22 @@
             "testimonial_object": "m-mate"
           }
         },
-        "testimonial_item_tNYQHT": {
-          "type": "testimonial_item",
-          "settings": {
-            "testimonial_object": "sz-eva"
-          }
-        },
         "testimonial_item_PkMrcX": {
           "type": "testimonial_item",
           "settings": {
             "testimonial_object": "m-martin"
+          }
+        },
+        "testimonial_item_4aUGXN": {
+          "type": "testimonial_item",
+          "settings": {
+            "testimonial_object": "m-szilvi"
+          }
+        },
+        "testimonial_item_tNYQHT": {
+          "type": "testimonial_item",
+          "settings": {
+            "testimonial_object": "sz-eva"
           }
         },
         "testimonial_item_wnnPUf": {
@@ -368,40 +374,20 @@
             "testimonial_object": "andras"
           }
         },
-        "testimonial_item_cwV6XT": {
+        "testimonial_item_bKP9ez": {
           "type": "testimonial_item",
           "settings": {
-            "testimonial_object": "sz-eva"
-          }
-        },
-        "testimonial_item_D49VBn": {
-          "type": "testimonial_item",
-          "settings": {
-            "testimonial_object": "sz-eva"
-          }
-        },
-        "testimonial_item_AHHqTQ": {
-          "type": "testimonial_item",
-          "settings": {
-            "testimonial_object": "sz-eva"
-          }
-        },
-        "testimonial_item_i6bMYF": {
-          "type": "testimonial_item",
-          "settings": {
-            "testimonial_object": "sz-eva"
+            "testimonial_object": ""
           }
         }
       },
       "block_order": [
         "testimonial_item_VnJr7V",
-        "testimonial_item_tNYQHT",
         "testimonial_item_PkMrcX",
+        "testimonial_item_4aUGXN",
+        "testimonial_item_tNYQHT",
         "testimonial_item_wnnPUf",
-        "testimonial_item_cwV6XT",
-        "testimonial_item_D49VBn",
-        "testimonial_item_AHHqTQ",
-        "testimonial_item_i6bMYF"
+        "testimonial_item_bKP9ez"
       ],
       "settings": {
         "title": "Rólunk írták",
