@@ -149,6 +149,15 @@
     "multicolumn_DnXwin": {
       "type": "multicolumn",
       "blocks": {
+        "column_wGYazh": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column_rfpkqn": {
           "type": "column",
           "settings": {
@@ -188,13 +197,24 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_4HPjVA": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
+        "column_wGYazh",
         "column_rfpkqn",
         "column_p3bAmL",
         "column_C7kJjf",
-        "column_HNxdaw"
+        "column_HNxdaw",
+        "column_4HPjVA"
       ],
       "settings": {
         "title": "",
