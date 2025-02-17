@@ -288,7 +288,7 @@
           "settings": {
             "heading": "Használati utasítás",
             "icon": "lightning_bolt",
-            "row_content": "<p>Az alábbiakban szeretnénk néhány fontos információt megosztani a karkötő helyes használatáról, valamint a biztonságos viseléséről.</p>",
+            "row_content": "<p>Az alábbiakban szeretnénk néhány fontos információt megosztani a karkötő helyes használatáról, valamint a biztonságos viseléséről.<br/><br/><a href=\"/pages/hasznalati-utasitas\" title=\"Használati utasítás\">Használati utasítás</a></p>",
             "page": ""
           }
         },
