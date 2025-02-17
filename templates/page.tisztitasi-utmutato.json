@@ -17,20 +17,36 @@
         "padding_bottom": 20
       }
     },
+    "rich_text_6QyTFU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_bGUfYP": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ page.title }}",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bGUfYP"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
     "rich_text_ciyXQz": {
       "type": "rich-text",
       "blocks": {
         "text_4ViQch": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "heading_KyeiVx": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
+            "text": "<p>Karkötőink tartós alapanyagokból készülnek, de a rendszeres használat és a környezeti hatások miatt időnként szükség lehet a tisztításukra. Ahhoz, hogy karkötőd hosszú ideig megőrizze eredeti szépségét és minőségét, kérjük, kövesd az alábbi tisztítási útmutatót.</p><p>Megmutatjuk hogyan óvhatod meg karkötődet, hogy sokaig viselhesd és megőrizd eredeti állapotát.</p>"
           }
         },
         "text_9KqQVn": {
@@ -39,27 +55,89 @@
             "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
           }
         },
-        "button_BAd6bq": {
-          "type": "button",
+        "heading_8HbMEW": {
+          "type": "heading",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "heading": "<strong>Általános Ápolási Tanácsok</strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_PaR9Bk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ha megszeretnéd őrizni karkötőd szépségét és hosszú ideig szeretéd hordani, az alábbiakat kerüld el:</p><p></p><ul><li>Kerüld a karkötő közvetlen érintkezését vegyszerekkel, az erős vegyi anyagok megmarhatják vagy megmattíthatják a kötelek felületét,</li></ul><p></p><ul><li>Ne hagyd sokáig a tűző napon, a nap sugarai károsítják a kötél anyagát, valamint az erős sokáig fennálló hőhatás károsíthatja a mágnesek erősségét,</li></ul><p></p><ul><li>Ne használd karóra mellett a karkötőt, az óra fém teste és fém szíja kidörzsölheti a kötelet és összekarcolhatja a karkötők acél alkatrészeit,</li></ul>"
           }
         }
       },
       "block_order": [
         "text_4ViQch",
-        "heading_KyeiVx",
         "text_9KqQVn",
-        "button_BAd6bq"
+        "heading_8HbMEW",
+        "text_PaR9Bk"
       ],
       "settings": {
         "desktop_content_position": "center",
-        "content_alignment": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_77MQ4L": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WBGf3m": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Karkötő tisztítása</strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_Drx84j": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Szükséges eszközök:</p><p><br/>– Kézmosó szappan<br/>– Langyos víz<br/>– Száraz puha törölköző</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WBGf3m",
+        "text_Drx84j"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_KkTBxK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_FJG9x3": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Tisztítás lépései</strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_WwbM8H": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>1.</strong> Vedd le a karkötőt a kezedről,<br/><strong>2</strong>. Helyezd a karkötőt langyos folyó csapvíz alá és áztasd át a kötél anyagát,<br/><strong>3.</strong> A vizes karkötőre folyass egy kevés kézmosó szappant,<br/><strong>4.</strong> Jól dörzsöld át a szappanos vízzel (Fogkefét, szívacsot ne használj),<br/><strong>5.</strong> Bő vízzel öblístd ki a szappant a karkötőből,<br/><strong>6.</strong> Egy puha száraz törölközővel nyomkodd ki belőle a vízet és töröld szárazra,<br/><strong>7.</strong> Hagyd száradni egy kicsit, hajszárítót semmiképp ne használj, mert megégetheti a kötelet!<br/><strong>8.</strong> Opcionális, ha éppen nem használod a karkötőt, tárold a díszdobozában, hogy megóvd a portól és más szennyeződésektől,</p><p><strong>Fontos:</strong></p><p>– A karkötőt ne rakd be mosógépbe vagy szárítógépbe,<br/>– Ne használj erős mosószereket,<br/>– Hajszárítóval ne szárítsd mert megégetheti a kötelet,</p><p>A rendszeres tisztítás és odafigyelés hosszú időn át megőrizheti karkötőd szépségét!</p><p>Ha további kérdéseid lennének a karkötő tisztításával/ápolásával kapcsolatban, nyugodtan vedd fel velünk a kapcsolatot!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_FJG9x3",
+        "text_WwbM8H"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
@@ -69,6 +147,9 @@
   },
   "order": [
     "main",
-    "rich_text_ciyXQz"
+    "rich_text_6QyTFU",
+    "rich_text_ciyXQz",
+    "rich_text_77MQ4L",
+    "rich_text_KkTBxK"
   ]
 }
