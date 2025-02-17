@@ -279,7 +279,7 @@
           "settings": {
             "heading": "Tisztitási útmutató",
             "icon": "washing",
-            "row_content": "",
+            "row_content": "<p>Karkötőink tartós alapanyagokból készülnek, de a rendszeres használat és a környezeti hatások miatt időnként szükség lehet a tisztításukra. Ahhoz, hogy karkötőd hosszú ideig megőrizze eredeti szépségét és minőségét, kérjük, kövesd az alábbi tisztítási útmutatót.</p><p>Megmutatjuk hogyan óvhatod meg karkötődet, hogy sokaig viselhesd és megőrizd eredeti állapotát.</p>",
             "page": ""
           }
         },
@@ -288,7 +288,7 @@
           "settings": {
             "heading": "Használati utasítás",
             "icon": "lightning_bolt",
-            "row_content": "",
+            "row_content": "<p>Az alábbiakban szeretnénk néhány fontos információt megosztani a karkötő helyes használatáról, valamint a biztonságos viseléséről.</p>",
             "page": ""
           }
         },
