@@ -377,6 +377,12 @@
         "testimonial_item_bKP9ez": {
           "type": "testimonial_item",
           "settings": {
+            "testimonial_object": "k-szabolcs"
+          }
+        },
+        "testimonial_item_3mMyXz": {
+          "type": "testimonial_item",
+          "settings": {
             "testimonial_object": ""
           }
         }
@@ -387,7 +393,8 @@
         "testimonial_item_4aUGXN",
         "testimonial_item_tNYQHT",
         "testimonial_item_wnnPUf",
-        "testimonial_item_bKP9ez"
+        "testimonial_item_bKP9ez",
+        "testimonial_item_3mMyXz"
       ],
       "settings": {
         "title": "Rólunk írták",
