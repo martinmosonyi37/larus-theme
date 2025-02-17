@@ -233,44 +233,6 @@
         "padding_bottom": 32
       }
     },
-    "image_with_text_KR6KzF": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_6RApTd": {
-          "type": "heading",
-          "settings": {
-            "heading": "Kézműves Manufaktúra Precizitással és Szenvedéllyel",
-            "heading_size": "h2"
-          }
-        },
-        "text_X7qPFF": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.custom.kategoria_kezmuves_txt | metafield_tag }}",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_6RApTd",
-        "text_X7qPFF"
-      ],
-      "settings": {
-        "image": "{{ product.metafields.custom.kategoria_handmade_kep.value }}",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-2",
-        "color_scheme": "scheme-2",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "collapsible_content_gre6XN": {
       "type": "collapsible-content",
       "blocks": {
@@ -321,6 +283,44 @@
         "desktop_layout": "image_second",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "image_with_text_KR6KzF": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_6RApTd": {
+          "type": "heading",
+          "settings": {
+            "heading": "Kézműves Manufaktúra Precizitással és Szenvedéllyel",
+            "heading_size": "h2"
+          }
+        },
+        "text_X7qPFF": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.kategoria_kezmuves_txt | metafield_tag }}",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6RApTd",
+        "text_X7qPFF"
+      ],
+      "settings": {
+        "image": "{{ product.metafields.custom.kategoria_handmade_kep.value }}",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "testimonials_bLh6JQ": {
@@ -423,7 +423,7 @@
     "multicolumn_DnXwin",
     "image_with_text_KR6KzF",
     "collapsible_content_gre6XN",
-    "testimonials_bLh6JQ",
-    "related-products"
+    "related-products",
+    "testimonials_bLh6JQ"
   ]
 }
