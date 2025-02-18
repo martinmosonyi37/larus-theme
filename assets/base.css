@@ -3931,7 +3931,7 @@ details-disclosure > details {
   height: 100%;
 }
 .banner--full-height {
-  height: calc(100vh - 65px);
+  height: calc(100vh - 100px);
 }
 .product_brand_name {
   text-transform: uppercase;
