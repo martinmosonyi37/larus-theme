@@ -3987,7 +3987,7 @@ body, p {
     -webkit-overflow-scrolling: touch;
   }
 
-  .slider--desktop::-webkit-scrollbar, .collection-list::-webkit-scrollbar {
+  .slider--desktop::-webkit-scrollbar, .collection-list::-webkit-scrollbar, slider-component::-webkit-scrollbar{
     display: none;
   }
 
