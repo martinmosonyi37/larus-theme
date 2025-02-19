@@ -3965,6 +3965,7 @@ body, p {
   line-height: 1.7rem !important;
 }
 
+/*
 @media screen and (min-width: 750px) {
   .slider--desktop {
     display: flex;
@@ -3991,3 +3992,4 @@ body, p {
 .slider .slider__slide:first-child {
   margin-left: 0 !important;
 }
+*/
