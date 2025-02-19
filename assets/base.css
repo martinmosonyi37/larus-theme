@@ -3973,18 +3973,21 @@ body, p {
   .banner__media-desktop {
     display: none;
   } 
+  .collection-list-wrapper.page-width {
+    padding-left: 0;
+  }
 }
 
-/*
+
 @media screen and (min-width: 750px) {
   .slider--desktop {
     display: flex;
-    overflow-x: auto;
+    overflow-x: scroll;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
   }
 
-  .slider--desktop::-webkit-scrollbar {
+  .slider--desktop::-webkit-scrollbar, .collection-list::-webkit-scrollbar {
     display: none;
   }
 
@@ -3993,13 +3996,3 @@ body, p {
     scroll-snap-align: start;
   }
 }
-
-.slider {
-  padding-left: 0px !important;
-  margin-left: 0 !important;
-}
-
-.slider .slider__slide:first-child {
-  margin-left: 0 !important;
-}
-*/
