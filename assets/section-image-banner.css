@@ -96,7 +96,6 @@
   .banner--large:not(.banner--adapt) {
     min-height: 70vh;
   }
-
   .banner__content.banner__content--top-left {
     align-items: flex-start;
     justify-content: flex-start;
