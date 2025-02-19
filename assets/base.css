@@ -3927,7 +3927,7 @@ details-disclosure > details {
   }
 }
 }
-.banner .media > *:not(.zoom):not(.deferred-media__poster-button), .media model-viewer {
+.banner .media > *:not(.zoom):not(.deferred-media__poster-button), .media img {
   height: 100%;
 }
 .banner--full-height {
