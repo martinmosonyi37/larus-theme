@@ -155,10 +155,11 @@
         "buttons_meghfk"
       ],
       "settings": {
-        "image": "shopify://shop_images/Gyongy-still-3719-masolat-2-1.jpg",
+        "image": "shopify://shop_images/Facebook_Image.jpg",
+        "image_2": "shopify://shop_images/Facebook_Image_1.jpg",
         "content_max_width": 40,
         "image_overlay_opacity": 0,
-        "image_height": "full-height",
+        "image_height": "large",
         "desktop_content_position": "bottom-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
