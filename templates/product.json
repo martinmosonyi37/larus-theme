@@ -311,7 +311,7 @@
       "settings": {
         "caption": "",
         "heading": "Hasznos információk",
-        "heading_size": "h2",
+        "heading_size": "display_3",
         "heading_alignment": "left",
         "layout": "none",
         "container_color_scheme": "scheme-1",
