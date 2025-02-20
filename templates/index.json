@@ -97,7 +97,7 @@
       "settings": {
         "title": "Kiemelt Termékek",
         "heading_size": "display_2",
-        "description": "",
+        "description": "<p>Lorem Ipsum</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "kiemet-ferfi-gongy-karkotok",
