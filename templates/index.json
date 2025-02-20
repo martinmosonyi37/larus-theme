@@ -16,7 +16,7 @@
           "type": "heading",
           "settings": {
             "heading": "Ásvány ékszerek az eleganciára hangolva",
-            "heading_size": "display_2"
+            "heading_size": "display_1"
           }
         },
         "text": {
@@ -128,7 +128,7 @@
           "type": "heading",
           "settings": {
             "heading": "Image banner",
-            "heading_size": "h1"
+            "heading_size": "display_1"
           }
         },
         "text_jjbKQh": {
