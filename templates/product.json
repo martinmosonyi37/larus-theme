@@ -249,11 +249,21 @@
             "text": "{{ product.metafields.custom.kategoria_kezmuves_txt | metafield_tag }}",
             "text_style": "body"
           }
+        },
+        "collapsible_tab_TbmpFM": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "dsds",
+            "icon": "check_mark",
+            "content": "<p>fdfd</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "heading_6RApTd",
-        "text_X7qPFF"
+        "text_X7qPFF",
+        "collapsible_tab_TbmpFM"
       ],
       "settings": {
         "image": "{{ product.metafields.custom.kategoria_handmade_kep.value }}",
