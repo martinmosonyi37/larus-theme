@@ -240,13 +240,13 @@
           "type": "heading",
           "settings": {
             "heading": "Kézműves Manufaktúra Precizitással és Szenvedéllyel",
-            "heading_size": "h2"
+            "heading_size": "display_2"
           }
         },
         "text_X7qPFF": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.custom.kategoria_kezmuves_txt | metafield_tag }}",
+            "text": "{{ product.metafields.custom.brand.value.product_page_category_description | metafield_tag }}",
             "text_style": "body"
           }
         },
@@ -266,7 +266,7 @@
         "collapsible_tab_TbmpFM"
       ],
       "settings": {
-        "image": "{{ product.metafields.custom.kategoria_handmade_kep.value }}",
+        "image": "{{ product.metafields.custom.brand.value.product_page_category_image.value }}",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
