@@ -253,9 +253,27 @@
         "collapsible_tab_TbmpFM": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Lorem Ipsum",
-            "icon": "check_mark",
-            "content": "<p>Lorem Ipsum</p>",
+            "heading": "Tisztítási útmutató",
+            "icon": "washing",
+            "content": "<p>Karkötőink tartós alapanyagokból készülnek, de a rendszeres használat és a környezeti hatások miatt időnként szükség lehet a tisztításukra. Ahhoz, hogy karkötőd hosszú ideig megőrizze eredeti szépségét és minőségét, kérjük, kövesd az alábbi tisztítási útmutatót.</p><p>Megmutatjuk hogyan óvhatod meg karkötődet, hogy sokaig viselhesd és megőrizd eredeti állapotát.<br/><br/><a href=\"/pages/tisztitasi-utmutato\" title=\"Tisztitási útmutató\">Tisztitási útmutató</a></p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_gPVxCT": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Használati utasítás",
+            "icon": "clipboard",
+            "content": "<p>Az alábbiakban szeretnénk néhány fontos információt megosztani a karkötő helyes használatáról, valamint a biztonságos viseléséről.<br/><br/><a href=\"/pages/hasznalati-utasitas\" title=\"Használati utasítás\">Használati utasítás</a></p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_yUAYbz": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Garancia",
+            "icon": "heart",
+            "content": "<p>Minden termékünkre 24 hónap garanciát vállalunk, a termék jótállási ideje a vásárlás dátumától kezdődik.</p>",
             "page": ""
           }
         }
@@ -263,7 +281,9 @@
       "block_order": [
         "heading_6RApTd",
         "text_X7qPFF",
-        "collapsible_tab_TbmpFM"
+        "collapsible_tab_TbmpFM",
+        "collapsible_tab_gPVxCT",
+        "collapsible_tab_yUAYbz"
       ],
       "settings": {
         "image": "{{ product.metafields.custom.brand.value.product_page_category_image.value }}",
