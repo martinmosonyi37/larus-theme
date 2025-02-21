@@ -415,3 +415,6 @@
     row-gap: var(--grid-desktop-vertical-spacing);
   }
 }
+.image_with_text__accordion {
+  width: 100%;
+}
