@@ -246,7 +246,7 @@
         "text_X7qPFF": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.custom.brand.value.product_page_category_description | metafield_tag }}",
+            "text": "{{ product.metafields.custom.brand.value.product_page_category_description | metafield_tag }}<p>something</p>",
             "text_style": "body"
           }
         },
