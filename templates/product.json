@@ -113,6 +113,13 @@
           "type": "description",
           "disabled": true,
           "settings": {}
+        },
+        "popup_KJnnt8": {
+          "type": "popup",
+          "settings": {
+            "text": "Pop-up link text",
+            "page": "garancia"
+          }
         }
       },
       "block_order": [
@@ -128,7 +135,8 @@
         "collapsible_tab_PRyaxm",
         "collapsible-row-2",
         "collapsible-row-1",
-        "description_etUpVz"
+        "description_etUpVz",
+        "popup_KJnnt8"
       ],
       "settings": {
         "enable_sticky_info": true,
