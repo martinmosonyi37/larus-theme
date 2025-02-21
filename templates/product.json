@@ -250,6 +250,13 @@
             "text_style": "body"
           }
         },
+        "heading_4VmdXB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Hasznos információk",
+            "heading_size": "display_3"
+          }
+        },
         "collapsible_tab_TbmpFM": {
           "type": "collapsible_tab",
           "settings": {
@@ -281,6 +288,7 @@
       "block_order": [
         "heading_6RApTd",
         "text_X7qPFF",
+        "heading_4VmdXB",
         "collapsible_tab_TbmpFM",
         "collapsible_tab_gPVxCT",
         "collapsible_tab_yUAYbz"
