@@ -414,7 +414,16 @@
   .multirow__inner {
     row-gap: var(--grid-desktop-vertical-spacing);
   }
+  .image-with-text .image-with-text__grid {
+    gap: 4rem;
+  }
+  .image-with-text__grid .image-with-text__text-item, .image-with-text__grid .image-with-text__media-item {
+    width: calc(50% - 4rem / 2);
+  }
 }
 .image_with_text__accordion {
   width: 100%;
+}
+.image-with-text__content {
+  padding: 4rem 0;
 }
