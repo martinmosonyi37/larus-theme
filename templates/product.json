@@ -253,9 +253,9 @@
         "collapsible_tab_TbmpFM": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "dsds",
+            "heading": "Lorem Ipsum",
             "icon": "check_mark",
-            "content": "<p>fdfd</p>",
+            "content": "<p>Lorem Ipsum</p>",
             "page": ""
           }
         }
