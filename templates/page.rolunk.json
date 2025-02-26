@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 20,
         "padding_bottom": 20
@@ -26,7 +27,7 @@
             "caption": "Caption",
             "heading": "Row",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
+            "button_label": "",
             "button_link": ""
           }
         },
@@ -37,7 +38,7 @@
             "caption": "Caption",
             "heading": "Row",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
+            "button_label": "",
             "button_link": ""
           }
         },
@@ -48,7 +49,7 @@
             "caption": "Caption",
             "heading": "Row",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
+            "button_label": "",
             "button_link": ""
           }
         }
@@ -58,8 +59,9 @@
         "row_MJm3hJ",
         "row_hzqz3W"
       ],
+      "disabled": true,
       "settings": {
-        "image_height": "medium",
+        "image_height": "adapt",
         "desktop_image_width": "medium",
         "image_layout": "alternate-left",
         "heading_size": "h1",
@@ -81,7 +83,7 @@
           "type": "heading",
           "settings": {
             "heading": "Image with text",
-            "heading_size": "display_1"
+            "heading_size": "display_2"
           }
         },
         "text_9RQphE": {
@@ -90,20 +92,11 @@
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "text_style": "body"
           }
-        },
-        "button_dVXLDi": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
         "heading_ymT3fA",
-        "text_9RQphE",
-        "button_dVXLDi"
+        "text_9RQphE"
       ],
       "settings": {
         "image": "shopify://shop_images/larus-manufacture-about-us_26.jpg",
@@ -112,115 +105,89 @@
         "layout": "image_first",
         "image_behavior": "none",
         "content_layout": "no-overlap",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "mobile_content_alignment": "left",
         "section_color_scheme": "",
         "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
-    "slideshow_TxhB9U": {
-      "type": "slideshow",
+    "image_with_text_jPwq4J": {
+      "type": "image-with-text",
       "blocks": {
-        "slide_TP4h3w": {
-          "type": "slide",
-          "settings": {
-            "image_overlay_opacity": 0,
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "show_text_box": true,
-            "box_align": "middle-center",
-            "text_alignment": "center",
-            "text_alignment_mobile": "center",
-            "color_scheme": ""
-          }
-        },
-        "slide_aaAKxa": {
-          "type": "slide",
-          "settings": {
-            "image_overlay_opacity": 0,
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "show_text_box": true,
-            "box_align": "middle-center",
-            "text_alignment": "center",
-            "text_alignment_mobile": "center",
-            "color_scheme": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_TP4h3w",
-        "slide_aaAKxa"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
-    "image_banner_hQ3fWp": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_gw9rtT": {
+        "heading_zt3VzD": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
+            "heading": "Image with text",
+            "heading_size": "display_2"
           }
         },
-        "text_BDjQwW": {
+        "text_8VidpL": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "text_style": "body"
-          }
-        },
-        "buttons_ectPBC": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading_gw9rtT",
-        "text_BDjQwW",
-        "buttons_ectPBC"
+        "heading_zt3VzD",
+        "text_8VidpL"
       ],
       "settings": {
-        "content_max_width": 40,
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "mobile_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "image": "shopify://shop_images/larus-manufacture-about-us_35.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
         "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_hLHbwJ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_RUPcg7": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "display_2"
+          }
+        },
+        "text_nhLXV3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RUPcg7",
+        "text_nhLXV3"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/larus-manufacture-about-us_14.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
@@ -228,7 +195,7 @@
     "main",
     "multirow_wpNf4K",
     "image_with_text_AwPiWD",
-    "slideshow_TxhB9U",
-    "image_banner_hQ3fWp"
+    "image_with_text_jPwq4J",
+    "image_with_text_hLHbwJ"
   ]
 }
