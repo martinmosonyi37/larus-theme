@@ -193,11 +193,6 @@
         "type": "shopify://apps/bucks/blocks/app-embed/4f0a9b06-9da4-4a49-b378-2de9d23a3af3",
         "disabled": false,
         "settings": {}
-      },
-      "8137651854084634914": {
-        "type": "shopify://apps/avada-seo-suite/blocks/avada-seo/15507c6e-1aa3-45d3-b698-7e175e033440",
-        "disabled": false,
-        "settings": {}
       }
     },
     "color_schemes": {
