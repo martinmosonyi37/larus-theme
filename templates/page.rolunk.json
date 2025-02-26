@@ -596,7 +596,7 @@
         "image_2": "shopify://shop_images/larus-manufacture-about-us_40.jpg",
         "content_max_width": 40,
         "image_overlay_opacity": 0,
-        "image_height": "small",
+        "image_height": "large",
         "desktop_content_position": "middle-center",
         "mobile_content_position": "middle-center",
         "show_text_box": false,
