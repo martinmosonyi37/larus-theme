@@ -213,10 +213,48 @@
         "text_6g49t4"
       ],
       "settings": {
-        "image": "shopify://shop_images/larus-manufacture-about-us_15.jpg",
+        "image": "shopify://shop_images/larus-manufacture-about-us_40.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_TL3A4e": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_AWT4Un": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "display_2"
+          }
+        },
+        "text_pUx63j": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_AWT4Un",
+        "text_pUx63j"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/larus-manufacture-about-us_20.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
         "image_behavior": "none",
         "content_layout": "no-overlap",
         "desktop_content_position": "middle",
@@ -254,7 +292,7 @@
         "image": "shopify://shop_images/larus-manufacture-about-us_6.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "image_behavior": "none",
         "content_layout": "no-overlap",
         "desktop_content_position": "middle",
@@ -292,7 +330,7 @@
         "image": "shopify://shop_images/larus-manufacture-about-us_7.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "text_first",
+        "layout": "image_first",
         "image_behavior": "none",
         "content_layout": "no-overlap",
         "desktop_content_position": "middle",
@@ -330,7 +368,7 @@
         "image": "shopify://shop_images/larus-manufacture-about-us_8.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "image_behavior": "none",
         "content_layout": "no-overlap",
         "desktop_content_position": "middle",
@@ -368,7 +406,7 @@
         "image": "shopify://shop_images/larus-manufacture-about-us_10.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "text_first",
+        "layout": "image_first",
         "image_behavior": "none",
         "content_layout": "no-overlap",
         "desktop_content_position": "middle",
@@ -540,6 +578,7 @@
     "image_with_text_jPwq4J",
     "image_with_text_hLHbwJ",
     "image_with_text_ttLC7X",
+    "image_with_text_TL3A4e",
     "image_with_text_peaMLE",
     "image_with_text_Mwpcbz",
     "image_with_text_46jndf",
