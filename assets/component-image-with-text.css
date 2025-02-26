@@ -418,7 +418,7 @@
     gap: 0rem;
   }
   .image-with-text__grid .image-with-text__text-item, .image-with-text__grid .image-with-text__media-item {
-    width: 100%;
+    width: calc(50% - 4rem / 2);
   }
 }
 .image_with_text__accordion {
