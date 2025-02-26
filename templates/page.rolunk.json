@@ -17,6 +17,48 @@
         "padding_bottom": 20
       }
     },
+    "rich_text_JmYnwy": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JVBFtR": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text_Qi6kqg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_E7p9EU": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_JVBFtR",
+        "text_Qi6kqg",
+        "button_E7p9EU"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "multirow_wpNf4K": {
       "type": "multirow",
       "blocks": {
@@ -441,10 +483,10 @@
         "text_aBKcFc"
       ],
       "settings": {
-        "image": "shopify://shop_images/larus-manufacture-about-us_34.jpg",
+        "image": "shopify://shop_images/larus-manufacture-about-us_41.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "image_behavior": "none",
         "content_layout": "no-overlap",
         "desktop_content_position": "middle",
@@ -479,10 +521,10 @@
         "text_7LHGU9"
       ],
       "settings": {
-        "image": "shopify://shop_images/larus-manufacture-about-us_20.jpg",
+        "image": "shopify://shop_images/larus-manufacture-about-us_34.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "text_first",
+        "layout": "image_first",
         "image_behavior": "none",
         "content_layout": "no-overlap",
         "desktop_content_position": "middle",
@@ -520,44 +562,6 @@
         "image": "shopify://shop_images/larus-manufacture-about-us_29.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
-        "image_behavior": "none",
-        "content_layout": "no-overlap",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "image_with_text_d6FFXT": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_tfpear": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "display_2"
-          }
-        },
-        "text_iRTrcf": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_tfpear",
-        "text_iRTrcf"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/larus-manufacture-about-us_24.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
         "layout": "text_first",
         "image_behavior": "none",
         "content_layout": "no-overlap",
@@ -573,6 +577,7 @@
   },
   "order": [
     "main",
+    "rich_text_JmYnwy",
     "multirow_wpNf4K",
     "image_with_text_AwPiWD",
     "image_with_text_jPwq4J",
@@ -585,7 +590,6 @@
     "image_with_text_eE4txt",
     "image_with_text_gTPdNg",
     "image_with_text_kWqWxR",
-    "image_with_text_yenELY",
-    "image_with_text_d6FFXT"
+    "image_with_text_yenELY"
   ]
 }
