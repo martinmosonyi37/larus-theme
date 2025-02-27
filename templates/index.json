@@ -164,7 +164,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "kiemet-ferfi-gongy-karkotok",
-        "products_to_show": 8,
+        "products_to_show": 2,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
