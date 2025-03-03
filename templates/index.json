@@ -248,11 +248,25 @@
           "settings": {
             "testimonial_object": "m-martin"
           }
+        },
+        "testimonial_item_hzJTFG": {
+          "type": "testimonial_item",
+          "settings": {
+            "testimonial_object": "m-szilvi"
+          }
+        },
+        "testimonial_item_DFbwPT": {
+          "type": "testimonial_item",
+          "settings": {
+            "testimonial_object": "andras"
+          }
         }
       },
       "block_order": [
         "testimonial_item_M4RRT4",
-        "testimonial_item_eydchD"
+        "testimonial_item_eydchD",
+        "testimonial_item_hzJTFG",
+        "testimonial_item_DFbwPT"
       ],
       "settings": {
         "title": "Rólunk Mondták",
@@ -260,10 +274,10 @@
         "image_ratio": "square",
         "columns_desktop": 3,
         "color_scheme": "",
-        "swipe_on_desktop": false,
+        "swipe_on_desktop": true,
         "show_view_all": false,
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
