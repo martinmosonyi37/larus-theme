@@ -234,13 +234,6 @@
         "show_text_below": false
       }
     },
-    "collection_slider_WPAxNK": {
-      "type": "collection-slider",
-      "settings": {
-        "collection": "beaded-bracelets",
-        "title": "Featured Collection"
-      }
-    },
     "testimonials_DMTPJi": {
       "type": "testimonials",
       "blocks": {
@@ -249,10 +242,17 @@
           "settings": {
             "testimonial_object": "m-mate"
           }
+        },
+        "testimonial_item_eydchD": {
+          "type": "testimonial_item",
+          "settings": {
+            "testimonial_object": "m-martin"
+          }
         }
       },
       "block_order": [
-        "testimonial_item_M4RRT4"
+        "testimonial_item_M4RRT4",
+        "testimonial_item_eydchD"
       ],
       "settings": {
         "title": "Collections",
@@ -272,7 +272,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Featured collection",
-        "heading_size": "h1",
+        "heading_size": "display_2",
         "description": "",
         "show_description": false,
         "description_style": "body",
@@ -373,7 +373,6 @@
     "image_with_text_mnYGLj",
     "featured_collection",
     "image_banner_fBXT8t",
-    "collection_slider_WPAxNK",
     "testimonials_DMTPJi",
     "featured_collection_63cD4K",
     "featured_product_43ixJD"
