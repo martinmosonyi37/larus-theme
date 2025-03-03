@@ -280,8 +280,8 @@
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
+        "show_view_all": false,
+        "view_all_style": "outline",
         "enable_desktop_slider": false,
         "color_scheme": "",
         "image_ratio": "adapt",
@@ -295,75 +295,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "featured_product_43ixJD": {
-      "type": "featured-product",
-      "blocks": {
-        "text_BemxHD": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "title_f8pdWM": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "price_xXUD9M": {
-          "type": "price",
-          "settings": {}
-        },
-        "variant_picker_kUqBft": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
-        },
-        "quantity_selector_g7Mfbw": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons_cUn7fk": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
-        },
-        "share_DMePmj": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "text_BemxHD",
-        "title_f8pdWM",
-        "price_xXUD9M",
-        "variant_picker_kUqBft",
-        "quantity_selector_g7Mfbw",
-        "buy_buttons_cUn7fk",
-        "share_DMePmj"
-      ],
-      "settings": {
-        "product": "african-spirit",
-        "color_scheme": "",
-        "secondary_background": false,
-        "media_size": "medium",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "media_position": "left",
-        "image_zoom": "lightbox",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -374,7 +305,6 @@
     "featured_collection",
     "image_banner_fBXT8t",
     "testimonials_DMTPJi",
-    "featured_collection_63cD4K",
-    "featured_product_43ixJD"
+    "featured_collection_63cD4K"
   ]
 }
