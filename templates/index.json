@@ -130,6 +130,36 @@
         "show_text_below": false
       }
     },
+    "video_Pge4qE": {
+      "type": "video",
+      "blocks": {
+        "play_MGLh7F": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        },
+        "heading_KUjf6b": {
+          "type": "heading",
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "play_MGLh7F",
+        "heading_KUjf6b"
+      ],
+      "settings": {
+        "autoplay": true,
+        "show_controls": false,
+        "video_size": "md",
+        "video": "shopify://files/videos/2_9.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
+      }
+    },
     "collection_list_rqGXGT": {
       "type": "collection-list",
       "blocks": {
@@ -166,16 +196,12 @@
     "video_j3GNQr": {
       "type": "video",
       "settings": {
-        "heading": "Video",
-        "heading_size": "h1",
-        "enable_video_looping": true,
+        "autoplay": false,
+        "show_controls": true,
+        "video_size": "md",
         "video": "shopify://files/videos/2_9.mp4",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
       }
     },
     "image_with_text_mnYGLj": {
@@ -384,6 +410,7 @@
   "order": [
     "slideshow_NLV67z",
     "image_banner",
+    "video_Pge4qE",
     "collection_list_rqGXGT",
     "video_j3GNQr",
     "image_with_text_mnYGLj",
