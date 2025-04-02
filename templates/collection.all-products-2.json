@@ -41,7 +41,7 @@
         "featured_collection_wJHbiG": {
           "type": "featured_collection",
           "settings": {
-            "collection": "alpha"
+            "collection": "ferfi-alpha-karkotok"
           }
         }
       },
@@ -69,6 +69,7 @@
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,
+        "columns_mobile": "2",
         "color_scheme": "",
         "image_ratio": "square",
         "image_shape": "default",
@@ -79,7 +80,6 @@
         "enable_filtering": true,
         "filter_type": "drawer",
         "enable_sorting": true,
-        "columns_mobile": "2",
         "padding_top": 0,
         "padding_bottom": 0
       }
